@@ -36,6 +36,10 @@ public class Person
       // call the constructor to create a new person
       Person p1 = new Person("Sana", "sana@gmail.com", "123-456-7890");
       Person p2 = new Person("Jean", "jean@gmail.com", "404 899-9955");
+      Person p3 = new Person("Olivia", "o.a.vanlandingham@wustl.edu", "205-922-3707");
+      p1.toString();
+      p2.toString();
+      p3.toString();
       
       Person.printPersonCounter();
    }
