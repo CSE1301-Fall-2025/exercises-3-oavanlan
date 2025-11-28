@@ -6,4 +6,8 @@ public class MeanGreeter extends Greeter
 	{
 		return "Go Away";
 	}
+
+	public String greet(String who) {
+		return "Go Away " + who;
+	}
 }
